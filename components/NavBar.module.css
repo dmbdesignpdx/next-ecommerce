@@ -1,0 +1,11 @@
+.root {
+    inline-size: 100%;
+    box-shadow: var(--elevation-1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    block-size: 3rem;
+}

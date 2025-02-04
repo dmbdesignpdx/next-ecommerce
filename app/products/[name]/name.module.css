@@ -1,0 +1,22 @@
+.root {
+    display: grid;
+    grid: auto / 1fr;
+    gap: var(--gap);
+}
+
+.root img {
+    inline-size: 100%;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+}
+
+@media (min-width:80rem) {
+
+    .root {
+        grid-template-columns: 1fr 1fr;
+    }
+}
